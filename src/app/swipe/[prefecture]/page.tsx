@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo, useRef } from 'react'
+import React, { useState, useMemo, useRef } from 'react'
 import TinderCard from 'react-tinder-card'
 import { touristSpots, TouristSpot } from '../../../data/prefectures'
 import Link from 'next/link'
