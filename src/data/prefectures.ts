@@ -19,85 +19,96 @@ export interface TouristSpot {
 }
 
 export const touristSpots: { [key: string]: TouristSpot[] } = {
-  '東京都': [
+  '石川県': [
     {
-      id: 'tokyo-1',
-      name: '東京スカイツリー',
-      image: '/placeholder.svg?height=300&width=200',
-      description: '東京の新しいランドマーク。高さ634mの電波塔で、展望台からは東京の街並みを一望できます。'
+      id: 'ishikawa-1',
+      name: '山代温泉 瑠璃光',
+      image: '/images/tourist-places/ishikawa/1018_山代温泉 瑠璃光.jpg',
+      description: '加賀温泉郷の一つで、美しい自然と癒しの温泉地。'
     },
     {
-      id: 'tokyo-2',
-      name: '浅草寺',
-      image: '/placeholder.svg?height=300&width=200',
-      description: '東京都内最古の寺院。雷門や仲見世通りなど、江戸の風情を感じられる観光スポットです。'
+      id: 'ishikawa-2',
+      name: '鼠多門・鼠多門橋',
+      image: '/images/tourist-places/ishikawa/1111111493_鼠多門・鼠多門橋.jpg',
+      description: '歴史的な門と橋で、金沢城を訪れる際の観光名所。'
     },
     {
-      id: 'tokyo-3',
-      name: '渋谷スクランブル交差点',
-      image: '/placeholder.svg?height=300&width=200',
-      description: '世界で最も忙しい交差点の一つ。一度に3000人以上が横断することもある東京の象徴的な場所です。'
-    }
-  ],
-  '京都府': [
-    {
-      id: 'kyoto-1',
-      name: '金閣寺',
-      image: '/placeholder.svg?height=300&width=200',
-      description: '正式名称は鹿苑寺。金箔で覆われた三層の楼閣が特徴的な世界遺産です。'
+      id: 'ishikawa-3',
+      name: '太陽が丘メタセコイア並木',
+      image: '/images/tourist-places/ishikawa/1111111499_太陽が丘メタセコイア並木.jpg',
+      description: '四季折々の風景を楽しめる美しい並木道。'
     },
     {
-      id: 'kyoto-2',
-      name: '伏見稲荷大社',
-      image: '/placeholder.svg?height=300&width=200',
-      description: '千本鳥居で有名な神社。インバウンド観光客にも人気のスポットです。'
+      id: 'ishikawa-4',
+      name: 'メタセコイア並木',
+      image: '/images/tourist-places/ishikawa/1111111500_メタセコイア並木.jpg',
+      description: '季節ごとの風景を楽しむことができる絶景スポット。'
     },
     {
-      id: 'kyoto-3',
-      name: '清水寺',
-      image: '/placeholder.svg?height=300&width=200',
-      description: '京都を代表する寺院の一つ。舞台造りの本堂からの眺めは絶景です。'
-    }
-  ],
-  '大阪府': [
-    {
-      id: 'osaka-1',
-      name: '大阪城',
-      image: '/placeholder.svg?height=300&width=200',
-      description: '豊臣秀吉によって築かれた城。天守閣からの眺めは大阪市内を一望できます。'
+      id: 'ishikawa-5',
+      name: '粟津温泉',
+      image: '/images/tourist-places/ishikawa/1111111526_粟津温泉.jpg',
+      description: '日本最古の温泉地の一つで、豊かな自然に囲まれています。'
     },
     {
-      id: 'osaka-2',
-      name: '道頓堀',
-      image: '/placeholder.svg?height=300&width=200',
-      description: '大阪の繁華街。グリコの看板や巨大なフードサンプルなど、活気あふれる観光スポットです。'
+      id: 'ishikawa-6',
+      name: '兼六園・紅葉',
+      image: '/images/tourist-places/ishikawa/1111111652_兼六園・紅葉.jpg',
+      description: '日本三名園の一つで、秋には紅葉が見事です。'
     },
     {
-      id: 'osaka-3',
-      name: 'ユニバーサル・スタジオ・ジャパン',
-      image: '/placeholder.svg?height=300&width=200',
-      description: '人気の映画やアニメをテーマにしたアトラクションが楽しめるテーマパーク。'
-    }
-  ],
-  '北海道': [
-    {
-      id: 'hokkaido-1',
-      name: '札幌時計台',
-      image: '/placeholder.svg?height=300&width=200',
-      description: '札幌のシンボル的建造物。明治時代に建てられた歴史的な建物です。'
+      id: 'ishikawa-7',
+      name: 'ひがし茶屋街',
+      image: '/images/tourist-places/ishikawa/1111111694_ひがし茶屋街.jpg',
+      description: '江戸時代の雰囲気が残る伝統的な街並みです。'
     },
     {
-      id: 'hokkaido-2',
-      name: '小樽運河',
-      image: '/placeholder.svg?height=300&width=200',
-      description: 'レンガ造りの倉庫群が並ぶ風情ある運河。夜はガス灯が灯り、ロマンチックな雰囲気を醸し出します。'
+      id: 'ishikawa-8',
+      name: '白山比咩神社',
+      image: '/images/tourist-places/ishikawa/1111111760_白山比咩神社.jpg',
+      description: '厳かな雰囲気の漂う歴史ある神社。'
     },
     {
-      id: 'hokkaido-3',
-      name: '富良野ラベンダー畑',
-      image: '/placeholder.svg?height=300&width=200',
-      description: '夏には一面がラベンダーで覆われる美しい景観。北海道を代表する観光スポットの一つです。'
+      id: 'ishikawa-9',
+      name: '大本山總持寺祖院・本堂',
+      image: '/images/tourist-places/ishikawa/1111112679_大本山總持寺祖院・本堂.jpg',
+      description: '禅宗の大本山として歴史を感じることができる寺院。'
+    },
+    {
+      id: 'ishikawa-10',
+      name: '金沢城公園・桜',
+      image: '/images/tourist-places/ishikawa/1111112998_金沢城公園-桜.jpg',
+      description: '春には美しい桜が咲き誇る人気スポット。'
+    },
+    {
+      id: 'ishikawa-11',
+      name: '湯涌温泉街',
+      image: '/images/tourist-places/ishikawa/1111114062_湯涌温泉街.jpg',
+      description: '静かな温泉街で、のんびりと過ごせます。'
+    },
+    {
+      id: 'ishikawa-12',
+      name: '山代温泉 古総湯',
+      image: '/images/tourist-places/ishikawa/1111114096_山代温泉_古総湯.jpg',
+      description: '歴史ある建物とともに温泉を楽しめます。'
+    },
+    {
+      id: 'ishikawa-13',
+      name: '金沢駅もてなしドーム',
+      image: '/images/tourist-places/ishikawa/1487_金沢駅もてなしドーム.jpg',
+      description: '金沢駅のシンボル的な建築物で写真映えするスポット。'
+    },
+    {
+      id: 'ishikawa-14',
+      name: '那谷寺',
+      image: '/images/tourist-places/ishikawa/230_那谷寺.jpg',
+      description: '自然と調和した美しい寺院。'
+    },
+    {
+      id: 'ishikawa-15',
+      name: '石川県立美術館',
+      image: '/images/tourist-places/ishikawa/878_石川県立美術館.jpg',
+      description: '石川県を代表する美術館。'
     }
   ]
 };
-
