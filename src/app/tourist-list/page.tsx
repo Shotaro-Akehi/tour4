@@ -1,11 +1,12 @@
+"use client";
+
 import React from 'react';
 import { touristSpots } from '../../data/prefectures';
+import { useRouter } from 'next/navigation';
 
 const TouristListPage = () => {
-  // 石川県の観光地データを取得
+  const router = useRouter();
   const ishikawaSpots = touristSpots['石川県'];
-
-  // 最後の7件のみを取得
   const limitedSpots = ishikawaSpots.slice(-7);
 
   return (
@@ -22,6 +23,14 @@ const TouristListPage = () => {
             <h2 className="text-sm font-medium mt-2 text-center">{spot.name}</h2>
           </div>
         ))}
+      </div>
+      <div className="mt-8 text-center">
+        <button
+          onClick={() => router.push('/tourist-route')}
+          className="bg-blue-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-blue-600"
+        >
+          ルートを作成
+        </button>
       </div>
     </div>
   );

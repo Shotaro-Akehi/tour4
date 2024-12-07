@@ -1,4 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/swipe/[prefecture]/page": "app/swipe/[prefecture]/page.js"
+  "/tourist-route/page": "app/tourist-route/page.js"
 }
